@@ -1,0 +1,128 @@
+@import url('common.css');
+
+header {
+    width: 1148px;
+    margin: 90px auto 77px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {}
+
+header div h2 {
+    font-size: 40px;
+}
+
+header nav {}
+
+header nav ul {}
+
+header nav ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header nav ul li a {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav ul li:nth-of-type(2) {
+    border-bottom: 5px solid #000;
+    padding-bottom: 10px;
+}
+
+.spot {
+    text-align: center;
+}
+
+.spot figure {
+    width: 1148px;
+    margin: 0 auto 71px auto;
+    position: relative;
+}
+
+.spot figure p {
+    width: 100%;
+    height: 100%;
+}
+
+.spot figure figcaption {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: calc(50% - 140px);
+    left: calc(50% - 230px);
+    font-size: 90px;
+}
+
+
+.spot2 {
+    width: 1148px;
+    height: 358px;
+    margin: 0 auto 95px auto;
+}
+
+.spot2 article {
+    float: left;
+    width: 367px;
+    margin-top: 20px;
+}
+
+.spot2 article h1 {
+    font-size: 60px;
+}
+
+.spot2 article p {
+    overflow: hidden;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom:45px;
+}
+
+.spot2 article a {}
+
+.spot2 figure {
+    float: right;
+    margin-right: 0;
+}
+
+.spot2 figure figcaption {
+    text-align: right;
+}
+
+.spot2 figure figcaption strong {}
+
+.spot2 figure img {
+    width: 540px;
+    height: 260px;
+}
+
+.foot {
+    width: 100%;
+    background: #434343;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.foot a {
+    color: white;
+}
+
+.spot figure aside {
+    width: 230px;
+    position: absolute;
+    transform: rotate(-90deg) translateY(-100%);
+    left: 0;
+    bottom: 0;
+    transform-origin: left bottom;
+}
+
+aside a {}
+
+aside a img {
+    margin:0 10px;
+    
+}
