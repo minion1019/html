@@ -1,0 +1,61 @@
+@import url('../common.css');
+
+.t_3{
+    width:607px; height:607px;
+    background:url(basic_02.jpg) no-repeat;
+    margin:0 auto;
+   /* padding:200px;*/
+    overflow:hidden;
+}
+
+.t_3 h1{
+    border:1px solid #f00;
+    color:white;
+    white-space:pre-line;
+    margin:260px 0;
+    text-align:center;
+    font-size:3em;  /* 부모가가진폰트사이즈의 em은 곱하기 3em이면 3곱하기*/
+}
+
+
+
+.t_3_2{width:607px; 
+margin:0 auto;
+position:relative;}
+
+.t_3_2 h1{
+    position:absolute;
+    left:calc(50% - 76px);
+    top:calc(50% - 40px);
+    color:#fff;
+    white-space:pre-line;
+
+    
+}
+
+.t_3_2 img{}
+
+.t_3_3{width:1400px; margin:100px auto;}
+.t_3_3:after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.t_3_3 .t_3_2:nth-of-type(1){
+    float:left;
+}
+.t_3_3 .t_3_2:nth-of-type(2){
+    float:right;
+}
+
+.t_3_3 .t_3_2:hover h1{
+    line-height:1;
+    opacity:1;
+}
+  
+
+.t_3_3 .t_3_2 h1{
+    line-height:6;
+    opacity:0;
+    transition:.5s;
+}
